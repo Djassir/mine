@@ -27,13 +27,13 @@ It showcases my frontend development skills, academic projects, and a JavaScript
 ## 🖼️ Screenshots
 
 ### 🏠 Home Section
-![Home](assets/images/home.png)
+![Home](a.png)
 
 ### 💼 Projects Section
-![Projects](assets/images/projects.png)
+![Projects](b.png)
 
 ### 🧮 GPA Calculator
-![Calculator](assets/images/calculator.png)
+![Calculator](c.png)
 
 ### 📞 Contact Section
-![Contact](assets/images/contact.png)
+![Contact](e.png)
