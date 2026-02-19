@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moussa Djassir Fadoul | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h1>Moussa Djassir</h1>
+    <ul id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#calculator">Calculator</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="toggleMode">🌙</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="moussa.jpeg" alt="Profile">
+  <h2>Frontend Developer</h2>
+  <p>Building modern responsive web applications</p>
+  <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a Year 2 Computer Science student at INES Ruhengeri. My goal is to become a professional frontend developer and build modern digital solutions.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills-container">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">GitHub</div>
+    <div class="card">Bootstrap</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="project-card">
+    <div class="carousel">
+      <img src="a.png" alt="Clinic Queue System" class="active">
+      <img src="b.png" alt="Clinic Queue System">
+      <img src="c.png" alt="Clinic Queue System">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+    <h3>Clinic Queue Management System</h3>
+    <p>Organizes patient queues and reduces waiting time in clinics.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    <a href="https://github.com/Djassir/mine" class="btn">View on GitHub</a>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+    <div class="carousel">
+      <img src="f (1).png" alt="IP Calculator" class="active">
+      <img src="f (2).png" alt="IP Calculator">
+      <img src="f (3).png" alt="IP Calculator">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+    <h3>Network IP Address Calculator</h3>
+    <p>Calculates subnet masks and network ranges.</p>
+    <p><strong>Tech:</strong> JavaScript</p>
+    <a href="https://github.com/Djassir/mine" class="btn">View on GitHub</a>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <div class="carousel">
+      <img src="g (1).png" alt="Result System" class="active">
+      <img src="g (2).png" alt="Result System">
+      <img src="g (3).png" alt="Result System">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+    <h3>Student Result & GPA System</h3>
+    <p>Automatically computes GPA and grade classification.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JS</p>
+    <a href="https://github.com/Djassir/mine" class="btn">View on GitHub</a>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section id="calculator">
+  <h2>Student GPA Calculator</h2>
+  <input type="number" id="marks" placeholder="Enter marks (0-100)">
+  <button id="calcBtn">Calculate GPA</button>
+  <p id="gpaResult"></p>
+</section>
+
+<!-- CV -->
+<section id="cv">
+  <h2>My CV</h2>
+  <a href="djasssir.pdf" download class="btn">Download CV</a>
+  <iframe src="djasssir.pdf" width="100%" height="400px"></iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your name">
+    <input type="email" id="email" placeholder="Your email">
+    <textarea id="message" placeholder="Your message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Email: mdjassirfadoul@gmail.com</p>
+  <p>Phone: 0795377228</p>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> Moussa Djassir Fadoul</p>
+</footer>
+
+<!-- JS -->
+<script src="main.js"></script>
+
+</body>
+</html>
