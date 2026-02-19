@@ -1,39 +1,38 @@
-# Moussa Djassir Fadoul – Portfolio
+# Moussa Djassir Fadoul | Portfolio
 
-## 📌 Description
-This is my personal portfolio website developed for Advanced Web Design assignment at INES Ruhengeri.
-
-It showcases my frontend development skills, academic projects, and a JavaScript GPA calculator.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and provides ways to contact me.  
 
 ---
 
-## 🚀 Features
-- Responsive design (mobile, tablet, desktop)
-- Student GPA Calculator (JavaScript)
-- Projects showcase
-- CV download and preview
-- Contact form validation
-- Dark mode toggle
+## 🌟 About Me
+I am a **Year 2 Computer Science student** at **INES Ruhengeri**.  
+My goal is to become a professional frontend developer and build modern, responsive web applications.
 
 ---
 
 ## 🛠️ Technologies Used
-- HTML5
-- CSS3 (Flexbox, Media Queries)
-- JavaScript (DOM manipulation)
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+- **Google Fonts (Poppins)**  
 
 ---
 
-## 🖼️ Screenshots
+## 💻 Features
+1. **Hero Section:** Personal introduction with profile image and call-to-action.  
+2. **About Section:** Brief bio and goals.  
+3. **Skills Section:** Displays technical skills as cards.  
+4. **Projects Section:**  
+   - Showcases 3 main projects.  
+   - Each project has a **carousel** of multiple images.  
+   - Swipe functionality for mobile devices.  
+   - Previous/Next buttons for navigation.  
+5. **GPA Calculator:** Calculates student grades based on marks input.  
+6. **CV Section:** Downloadable CV and embedded preview.  
+7. **Contact Form:** Send messages directly through the form.  
+8. **Footer:** Current year dynamically displayed using JavaScript.  
 
-### 🏠 Home Section
-![Home](a.png)
+---
 
-### 💼 Projects Section
-![Projects](b.png)
+## 📂 Project Structure
 
-### 🧮 GPA Calculator
-![Calculator](c.png)
-
-### 📞 Contact Section
-![Contact](e.png)
