@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🌟 About Me
 I am a **Year 2 Computer Science student** at **INES Ruhengeri**.  
-My goal is to become a professional frontend developer and build modern, responsive web applications.
+My goal is to become a professional frontend developer and build modern, responsive web applications.i just want to spicify that i used IA just to correct some erreur in my code
 
 ---
 
